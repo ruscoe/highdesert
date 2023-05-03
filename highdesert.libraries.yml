@@ -1,6 +1,9 @@
 base:
   version: VERSION
   css:
+    base:
+      css/base/base.css:
+        weight: -10
     component:
       css/components/action-links.css:
         weight: -10
@@ -45,6 +48,12 @@ base:
       css/components/textarea.css:
         weight: -10
       css/components/ui-dialog.css:
+        weight: -10
+    layout:
+      css/layout/layout.css:
+        weight: -10
+    theme:
+      css/theme/theme.css:
         weight: -10
 dialog:
   version: VERSION
