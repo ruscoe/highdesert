@@ -1,0 +1,24 @@
+name: highdesert
+type: theme
+'base theme': stable9
+starterkit: true
+libraries:
+  - highdesert/base
+  - highdesert/messages
+  - core/normalize
+libraries-extend:
+  user/drupal.user:
+    - highdesert/user
+  core/drupal.dropbutton:
+    - highdesert/dropbutton
+  core/drupal.dialog:
+    - highdesert/dialog
+  file/drupal.file:
+    - highdesert/file
+  core/drupal.progress:
+    - highdesert/progress
+version: 10.0.0
+project: drupal
+datestamp: 1671126000
+core_version_requirement: ^10
+generator: 'starterkit_theme:10.0.0'
