@@ -5,7 +5,7 @@ dependencies:
     - system
   theme:
     - highdesert
-id: sitebranding
+id: highdesert_sitebranding
 theme: highdesert
 region: header
 weight: 0
