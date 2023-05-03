@@ -5,10 +5,10 @@ footer .region-footer {
 header {
   background-color: #8a9a90;
 }
-header #block-sitebranding {
+header #block-highdesert-sitebranding {
   display: flex;
 }
-header #block-sitebranding .site-name a {
+header #block-highdesert-sitebranding .site-name a {
   color: #FFFFFF;
   font-size: 2rem;
   text-decoration: none;

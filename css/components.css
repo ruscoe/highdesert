@@ -654,30 +654,20 @@ ul.links a.is-active {
   color: #000;
 }
 
-/**
- * @file
- * Visual styles for menu.
- */
-#block-highdesert-main-menu ul.menu {
+.region-primary-menu ul.menu {
   display: flex;
   flex-wrap: nowrap;
+  flex-direction: row;
 }
-#block-highdesert-main-menu ul.menu li a {
+.region-primary-menu ul.menu li {
+  list-style-type: none;
+}
+.region-primary-menu ul.menu li a {
   margin: 0 1rem 0 1rem;
   padding: 0.5rem 1rem 0.5rem 1rem;
 }
-
-ul.menu {
-  margin-left: 1em; /* LTR */
-  padding: 0;
-  list-style: none outside;
-  text-align: left; /* LTR */
-}
-
-[dir=rtl] ul.menu {
-  margin-right: 1em;
-  margin-left: 0;
-  text-align: right;
+.region-primary-menu [dir=rtl] ul.menu {
+  flex-direction: row-reverse;
 }
 
 .menu-item--expanded {
