@@ -6,9 +6,11 @@
     "license": "MIT",
     "scripts": {
         "build-css": "sass sass:css --no-source-map",
-        "watch-css": "sass sass:css --watch --no-source-map"
+        "watch-css": "sass sass:css --watch --no-source-map",
+        "lint-sass": "sass-lint --config .sass-lint.yml sass/*.scss --verbose"
     },
     "dependencies": {
-        "sass": "1.62.0"
+        "sass": "1.62.0",
+        "sass-lint": "1.13.1"
     }
 }
