@@ -1,0 +1,13 @@
+{
+    "name": "highdesert",
+    "version": "1.0.0",
+    "description": "High Desert theme for Drupal 10.",
+    "author": "Dan Ruscoe",
+    "license": "MIT",
+    "scripts": {
+        "build-css": "sass sass:css --no-source-map"
+    },
+    "dependencies": {
+        "sass": "1.62.0"
+    }
+}
