@@ -1,0 +1,17 @@
+
+header {
+    background-color: $desertGreen;
+
+    #block-sitebranding {
+        display: flex;
+
+        .site-name {
+            a {
+                color: $white;
+                font-size: 2rem;
+                text-decoration: none;
+            }
+        }
+
+    }
+}

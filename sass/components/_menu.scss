@@ -3,6 +3,23 @@
  * Visual styles for menu.
  */
 
+ #block-highdesert-main-menu {
+
+  ul.menu {
+      display: flex;
+      flex-wrap: nowrap;
+
+      li {
+          a {
+              margin: 0 1rem 0 1rem;
+              padding: 0.5rem 1rem 0.5rem 1rem;
+          }
+      }
+  }
+}
+
+// TODO: Integrate generated CSS below:
+
 ul.menu {
   margin-left: 1em; /* LTR */
   padding: 0;

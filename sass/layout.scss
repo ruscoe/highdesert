@@ -1,41 +1,5 @@
 @import 'common/_colors';
 @import 'common/_mixins';
 
-header {
-    background-color: $desertGreen;
-
-    #block-sitebranding {
-        display: flex;
-
-        .site-name {
-            a {
-                color: $white;
-                font-size: 2rem;
-                text-decoration: none;
-            }
-        }
-
-    }
-}
-
-footer {
-
-    .region-footer {
-        background-color: $desertBrown;
-    }
-}
-
-#block-highdesert-main-menu {
-
-    ul.menu {
-        display: flex;
-        flex-wrap: nowrap;
-
-        li {
-            a {
-                margin: 0 1rem 0 1rem;
-                padding: 0.5rem 1rem 0.5rem 1rem;
-            }
-        }
-    }
-}
+@import 'layout/_footer';
+@import 'layout/_header';
