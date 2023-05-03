@@ -8,10 +8,10 @@ base:
       css/components.css:
         weight: -10
     layout:
-      css/layout/layout.css:
+      css/layout.css:
         weight: -10
     theme:
-      css/theme/theme.css:
+      css/theme.css:
         weight: -10
 file:
   version: VERSION
