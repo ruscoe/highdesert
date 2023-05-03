@@ -1,5 +1,29 @@
-@import 'common/_colors.scss';
-@import 'common/_mixins.scss';
+@import 'common/_colors';
+@import 'common/_mixins';
+
+header {
+    background-color: $desertGreen;
+
+    #block-sitebranding {
+        display: flex;
+
+        .site-name {
+            a {
+                color: $white;
+                font-size: 2rem;
+                text-decoration: none;
+            }
+        }
+
+    }
+}
+
+footer {
+
+    .region-footer {
+        background-color: $desertBrown;
+    }
+}
 
 #block-highdesert-main-menu {
 
