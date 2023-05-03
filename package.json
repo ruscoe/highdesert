@@ -5,7 +5,8 @@
     "author": "Dan Ruscoe",
     "license": "MIT",
     "scripts": {
-        "build-css": "sass sass:css --no-source-map"
+        "build-css": "sass sass:css --no-source-map",
+        "watch-css": "sass sass:css --watch --no-source-map"
     },
     "dependencies": {
         "sass": "1.62.0"
