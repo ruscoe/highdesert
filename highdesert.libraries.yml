@@ -5,6 +5,50 @@ base:
       css/base.css:
         weight: -10
     component:
+      css/stable9/components/action-links.css:
+        weight: -10
+      css/stable9/components/breadcrumb.css:
+        weight: -10
+      css/stable9/components/button.css:
+        weight: -10
+      css/stable9/components/container-inline.css:
+        weight: -10
+      css/stable9/components/details.css:
+        weight: -10
+      css/stable9/components/exposed-filters.css:
+        weight: -10
+      css/stable9/components/field.css:
+        weight: -10
+      css/stable9/components/form.css:
+        weight: -10
+      css/stable9/components/icons.css:
+        weight: -10
+      css/stable9/components/inline-form.css:
+        weight: -10
+      css/stable9/components/item-list.css:
+        weight: -10
+      css/stable9/components/link.css:
+        weight: -10
+      css/stable9/components/links.css:
+        weight: -10
+      css/stable9/components/menu.css:
+        weight: -10
+      css/stable9/components/more-link.css:
+        weight: -10
+      css/stable9/components/pager.css:
+        weight: -10
+      css/stable9/components/tabledrag.css:
+        weight: -10
+      css/stable9/components/tableselect.css:
+        weight: -10
+      css/stable9/components/tablesort.css:
+        weight: -10
+      css/stable9/components/tabs.css:
+        weight: -10
+      css/stable9/components/textarea.css:
+        weight: -10
+      css/stable9/components/ui-dialog.css:
+        weight: -10
       css/components/menu.css:
         weight: -10
     layout:
@@ -14,4 +58,61 @@ base:
         weight: -10
     theme:
       css/theme.css:
+        weight: -10
+dialog:
+  version: VERSION
+  css:
+    component:
+      css/stable9/components/dialog.css:
+        weight: -10
+dropbutton:
+  version: VERSION
+  css:
+    component:
+      css/stable9/components/dropbutton.css:
+        weight: -10
+file:
+  version: VERSION
+  css:
+    component:
+      css/stable9/components/file.css:
+        weight: -10
+image-widget:
+  version: VERSION
+  css:
+    component:
+      css/stable9/components/image-widget.css: {  }
+indented:
+  version: VERSION
+  css:
+    component:
+      css/stable9/components/indented.css: {  }
+messages:
+  version: VERSION
+  css:
+    component:
+      css/stable9/components/messages.css:
+        weight: -10
+node:
+  version: VERSION
+  css:
+    component:
+      css/stable9/components/node.css:
+        weight: -10
+progress:
+  version: VERSION
+  css:
+    component:
+      css/stable9/components/progress.css:
+        weight: -10
+search-results:
+  version: VERSION
+  css:
+    component:
+      css/stable9/components/search-results.css: {  }
+user:
+  version: VERSION
+  css:
+    component:
+      css/stable9/components/user.css:
         weight: -10
