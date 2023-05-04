@@ -1,4 +1,0 @@
-files:
-  include: 'sass/*.sass'
-rules:
-  clean-import-paths: 0
