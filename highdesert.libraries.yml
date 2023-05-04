@@ -52,6 +52,8 @@ base:
       css/components/menu.css:
         weight: -10
     layout:
+      css/layout/content.css:
+        weight: -10
       css/layout/footer.css:
         weight: -10
       css/layout/header.css:
