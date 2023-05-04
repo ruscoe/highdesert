@@ -1,14 +1,25 @@
 .region-primary-menu ul.menu {
+  background-color: #bc9166;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
+  margin: 0.25rem 0 0 0;
 }
-.region-primary-menu ul.menu li {
+.region-primary-menu ul.menu li.menu-item {
   list-style-type: none;
+  padding: 0;
 }
-.region-primary-menu ul.menu li a {
+.region-primary-menu ul.menu li.menu-item a {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: bold;
   margin: 0 1rem 0 1rem;
   padding: 0.5rem 1rem 0.5rem 1rem;
+  text-decoration: none;
+}
+.region-primary-menu ul.menu li.menu-item a:hover {
+  background-color: #b2604a;
+  color: #FFFFFF;
 }
 .region-primary-menu [dir=rtl] ul.menu {
   flex-direction: row-reverse;
