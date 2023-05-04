@@ -9,10 +9,13 @@ header {
 header #block-highdesert-sitebranding {
   align-items: center;
   display: flex;
-  padding: 2rem 0 2rem 0;
+  padding: 1rem 0 1rem 0;
 }
 header #block-highdesert-sitebranding .site-logo {
   margin-left: 2rem;
+}
+header #block-highdesert-sitebranding .site-logo img {
+  height: 100px;
 }
 header #block-highdesert-sitebranding .site-name {
   margin-left: 2rem;
