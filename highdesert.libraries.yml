@@ -101,6 +101,8 @@ node:
     component:
       css/stable9/components/node.css:
         weight: -10
+      css/node/node--type-article.css:
+        weight: -10
 progress:
   version: VERSION
   css:

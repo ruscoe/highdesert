@@ -1,0 +1,20 @@
+@import '../common/colors';
+@import '../common/fonts';
+@import '../common/mixins';
+
+article.node--type-article {
+
+    h2 {
+
+        a {
+            background-color: $desertOrangeLight;
+            border-bottom: 4px solid $desertOrange;
+            display: block;
+            color: $desertBrown;
+            font-family: $latoRegular;
+            font-size: 2rem;
+            text-decoration: none;
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+@font-face {
+  font-display: swap;
+  font-family: "Lato Regular";
+  src: url("../../fonts/Lato-Regular.woff") format("woff");
+}
+article.node--type-article h2 a {
+  background-color: #d2a78b;
+  border-bottom: 4px solid #c18056;
+  display: block;
+  color: #453a3e;
+  font-family: "Lato Regular";
+  font-size: 2rem;
+  text-decoration: none;
+  width: 100%;
+}
