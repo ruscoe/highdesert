@@ -14,7 +14,8 @@
   list-style-type: none;
   padding: 0;
 }
-.region-primary-menu ul.menu li.menu-item a {
+.region-primary-menu ul.menu li.menu-item a, .region-primary-menu ul.menu li.menu-item a:visited {
+  color: #453a3e;
   display: block;
   font-family: "Lato Regular";
   font-size: 1.2rem;

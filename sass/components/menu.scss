@@ -15,7 +15,8 @@
       list-style-type: none;
       padding: 0;
 
-      a {
+      a, a:visited {
+        color: $desertBrown;
         display: block;
         font-family: $latoRegular;
         font-size: 1.2rem;
