@@ -1,6 +1,6 @@
 # High Desert theme for Drupal 10
 
-Created using [Starterkit](https://www.drupal.org/docs/core-modules-and-themes/core-themes/starterkit-theme).
+Work-in-progress theme for Drupal 10. Created using [Starterkit](https://www.drupal.org/docs/core-modules-and-themes/core-themes/starterkit-theme).
 
 ## Requirements
 
