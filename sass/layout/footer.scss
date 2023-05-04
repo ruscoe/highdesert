@@ -1,4 +1,5 @@
 @import '../common/colors';
+@import '../common/fonts';
 @import '../common/mixins';
 
 footer {
@@ -9,6 +10,8 @@ footer {
 
         #block-highdesert-powered {
             color: $white;
+            font-family: $latoRegular;
+            font-size: 1rem;
             text-align: center;
 
             a {

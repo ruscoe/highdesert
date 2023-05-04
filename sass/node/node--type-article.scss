@@ -14,7 +14,30 @@ article.node--type-article {
             font-size: 2rem;
             padding: 0.5rem 1rem 0.5rem 1rem;
             text-decoration: none;
-            width: 100%;
+        }
+    }
+
+    .node__content {
+
+        p {
+            color: $desertBrown;
+            font-family: $latoRegular;
+            font-size: 1.2rem;
+        }
+    }
+
+    .node__meta {
+        color: $desertBrown;
+        font-family: $latoRegular;
+        font-size: 1rem;
+    }
+
+    .node__links {
+
+        a {
+            color: $desertBrown;
+            font-family: $latoRegular;
+            font-size: 1rem;
         }
     }
 }
