@@ -10,6 +10,16 @@ Created using [Starterkit](https://www.drupal.org/docs/core-modules-and-themes/c
 
 `npm install`
 
-## Compiling Sass
+## Working with Sass
 
-`npm run build-css`
+Compile CSS files once:
+
+`npm run sass:build`
+
+Watch for changes to SCSS files and compile as you work:
+
+`npm run sass:watch`
+
+Check for problems with your SCSS files:
+
+`npm run sass:lint`
