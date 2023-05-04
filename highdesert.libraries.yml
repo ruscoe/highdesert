@@ -5,29 +5,13 @@ base:
       css/base.css:
         weight: -10
     component:
-      css/components.css:
+      css/components/menu.css:
         weight: -10
     layout:
-      css/layout.css:
+      css/layout/footer.css:
+        weight: -10
+      css/layout/header.css:
         weight: -10
     theme:
       css/theme.css:
-        weight: -10
-file:
-  version: VERSION
-  css:
-    component:
-      css/file.css:
-        weight: -10
-node:
-  version: VERSION
-  css:
-    component:
-      css/node.css:
-        weight: -10
-user:
-  version: VERSION
-  css:
-    component:
-      css/user.css:
         weight: -10
