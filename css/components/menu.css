@@ -4,7 +4,7 @@
   src: url("../../fonts/Lato-Regular.woff") format("woff");
 }
 .region-primary-menu ul.menu {
-  background-color: #ceb8a2;
+  background-color: #d2a78b;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
