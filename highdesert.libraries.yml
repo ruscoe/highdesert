@@ -49,6 +49,8 @@ base:
         weight: -10
       css/stable9/components/ui-dialog.css:
         weight: -10
+      css/components/comments.css:
+        weight: -10
       css/components/menu.css:
         weight: -10
     layout:

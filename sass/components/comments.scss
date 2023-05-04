@@ -1,0 +1,13 @@
+@import '../common/colors';
+@import '../common/fonts';
+@import '../common/mixins';
+
+section.comment-wrapper {
+
+    h2.title {
+        border-bottom: 2px solid $desertBrown;
+        font-family: $latoRegular;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+}
