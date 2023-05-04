@@ -1,3 +1,12 @@
 footer .region-footer {
   background-color: #453a3e;
+  padding: 4rem 1rem 4rem 1rem;
+}
+footer .region-footer #block-highdesert-powered {
+  color: #FFFFFF;
+  text-align: center;
+}
+footer .region-footer #block-highdesert-powered a {
+  color: #FFFFFF;
+  text-decoration: none;
 }
