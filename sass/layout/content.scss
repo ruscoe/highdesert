@@ -1,6 +1,13 @@
 @import '../common/colors';
+@import '../common/fonts';
 @import '../common/mixins';
 
 main {
     margin: 0 2rem 0 2rem;
+}
+
+#block-pagetitle {
+    color: $desertBrown;
+    font-family: $latoRegular;
+    font-size: 2rem;
 }
