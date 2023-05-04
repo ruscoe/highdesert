@@ -1,4 +1,5 @@
 @import '../common/colors';
+@import '../common/fonts';
 @import '../common/mixins';
 
 header {
@@ -18,6 +19,7 @@ header {
 
             a {
                 color: $white;
+                font-family: $latoRegular;
                 font-size: 2rem;
                 text-decoration: none;
             }

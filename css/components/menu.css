@@ -1,3 +1,8 @@
+@font-face {
+  font-display: swap;
+  font-family: "Lato Regular";
+  src: url("../../fonts/Lato-Regular.woff") format("woff");
+}
 .region-primary-menu ul.menu {
   background-color: #ceb8a2;
   display: flex;
@@ -11,7 +16,8 @@
 }
 .region-primary-menu ul.menu li.menu-item a {
   display: block;
-  font-size: 1.4rem;
+  font-family: "Lato Regular";
+  font-size: 1.2rem;
   font-weight: bold;
   margin: 0 1rem 0 1rem;
   padding: 0.5rem 1rem 0.5rem 1rem;
