@@ -7,10 +7,11 @@
     "scripts": {
         "build-css": "sass sass:css --no-source-map",
         "watch-css": "sass sass:css --watch --no-source-map",
-        "lint-sass": "sass-lint --config .sass-lint.yml sass/*.scss --verbose"
+        "lint-sass": "stylelint sass/*.scss"
     },
     "dependencies": {
         "sass": "1.62.0",
-        "sass-lint": "1.13.1"
+        "stylelint": "15.6.1",
+        "stylelint-config-standard-scss": "9.0.0"
     }
 }
