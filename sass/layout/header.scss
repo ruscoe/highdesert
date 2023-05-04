@@ -5,9 +5,17 @@ header {
     background-color: $desertGreen;
 
     #block-highdesert-sitebranding {
+        align-items: center;
         display: flex;
+        padding: 2rem 0 2rem 0;
+
+        .site-logo {
+            margin-left: 2rem;
+        }
 
         .site-name {
+            margin-left: 2rem;
+
             a {
                 color: $white;
                 font-size: 2rem;
