@@ -3,7 +3,7 @@ status: true
 dependencies:
   theme:
     - highdesert
-id: pagetitle
+id: highdesert_pagetitle
 theme: highdesert
 region: content
 weight: 0
