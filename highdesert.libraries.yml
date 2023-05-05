@@ -107,6 +107,8 @@ node:
         weight: -10
       css/node/node--type-article.css:
         weight: -10
+      css/node/node--type-page.css:
+        weight: -10
 progress:
   version: VERSION
   css:

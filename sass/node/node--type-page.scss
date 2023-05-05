@@ -1,0 +1,43 @@
+@import '../common/colors';
+@import '../common/fonts';
+@import '../common/mixins';
+
+article.node--type-page {
+
+    h2 {
+
+        a {
+            background-color: $desertSand;
+            display: block;
+            color: $desertBrown;
+            font-family: $latoRegular;
+            font-size: 2rem;
+            padding: 0.5rem 1rem 0.5rem 1rem;
+            text-decoration: none;
+        }
+    }
+
+    .node__content {
+
+        p {
+            color: $desertBrown;
+            font-family: $latoRegular;
+            font-size: 1.2rem;
+        }
+    }
+
+    .node__meta {
+        color: $desertBrown;
+        font-family: $latoRegular;
+        font-size: 1rem;
+    }
+
+    .node__links {
+
+        a {
+            color: $desertBrown;
+            font-family: $latoRegular;
+            font-size: 1rem;
+        }
+    }
+}

@@ -1,0 +1,29 @@
+@font-face {
+  font-display: swap;
+  font-family: "Lato Regular";
+  src: url("../../fonts/Lato-Regular.woff") format("woff");
+}
+article.node--type-page h2 a {
+  background-color: #ceb8a2;
+  display: block;
+  color: #453a3e;
+  font-family: "Lato Regular";
+  font-size: 2rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  text-decoration: none;
+}
+article.node--type-page .node__content p {
+  color: #453a3e;
+  font-family: "Lato Regular";
+  font-size: 1.2rem;
+}
+article.node--type-page .node__meta {
+  color: #453a3e;
+  font-family: "Lato Regular";
+  font-size: 1rem;
+}
+article.node--type-page .node__links a {
+  color: #453a3e;
+  font-family: "Lato Regular";
+  font-size: 1rem;
+}
