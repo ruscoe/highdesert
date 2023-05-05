@@ -1,0 +1,15 @@
+@import '../common/colors';
+@import '../common/fonts';
+@import '../common/mixins';
+
+.field--name-field-tags {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+
+    .field__item {
+        a {
+            background-color: $desertSand;
+        }
+    }
+}

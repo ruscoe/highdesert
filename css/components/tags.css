@@ -1,0 +1,13 @@
+@font-face {
+  font-display: swap;
+  font-family: "Lato Regular";
+  src: url("../../fonts/Lato-Regular.woff") format("woff");
+}
+.field--name-field-tags {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+.field--name-field-tags .field__item a {
+  background-color: #ceb8a2;
+}

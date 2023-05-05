@@ -53,6 +53,8 @@ base:
         weight: -10
       css/components/menu.css:
         weight: -10
+      css/components/tags.css:
+        weight: -10
     layout:
       css/layout/content.css:
         weight: -10
