@@ -4,7 +4,7 @@
   src: url("../../fonts/Lato-Regular.woff") format("woff");
 }
 main {
-  margin: 0 2rem 0 2rem;
+  margin: 2rem 2rem 0 2rem;
 }
 
 #block-pagetitle {
