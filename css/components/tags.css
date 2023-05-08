@@ -10,4 +10,10 @@
 }
 .field--name-field-tags .field__item a {
   background-color: #ceb8a2;
+  border-radius: 0.5rem;
+  display: block;
+  color: #453a3e;
+  margin-right: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  text-decoration: none;
 }

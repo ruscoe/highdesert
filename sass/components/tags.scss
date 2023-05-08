@@ -10,6 +10,12 @@
     .field__item {
         a {
             background-color: $desertSand;
+            border-radius: 0.5rem;
+            display: block;
+            color: $desertBrown;
+            margin-right: 0.5rem;
+            padding: 0.25rem 0.5rem;
+            text-decoration: none;
         }
     }
 }
