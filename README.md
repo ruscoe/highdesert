@@ -14,16 +14,19 @@ Created using [Starterkit](https://www.drupal.org/docs/core-modules-and-themes/c
 
 `npm install`
 
-## Working with Sass
+## Editing and Compiling Sass
 
-Compile CSS files once:
+This theme makes use of [Sass](https://sass-lang.com/), which means CSS files
+are not edited directly, but compiled from the files in the /sass directory.
+
+To compile CSS files once:
 
 `npm run sass:build`
 
-Watch for changes to SCSS files and compile as you work:
+To watch for changes to SCSS files and compile as you edit:
 
 `npm run sass:watch`
 
-Check for problems with your SCSS files:
+To check for problems with SCSS files:
 
 `npm run sass:lint`
